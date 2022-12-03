@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estlos.css">
+	<title>2.3.2 y 2.3.3</title>
+	<style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu{
+            background-color: rgb(10, 205, 240);
+        }
+
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 20px 30px;
+        }
+
+        #menu li{
+            display: inline;
+            margin: 0;
+        }
+
+        #menu li a{
+            color: white;
+            padding: 20px 30px;
+            text-decoration: none;
+        }
+
+        #menu li a:hover{
+            background-color: rgb(223, 181, 243);
+            color: white;
+        }
+
+        @media screen and (max-width: 747px){
+            #menu ul{
+                padding: 0;
+            }
+            #menu ul li{
+                margin-right: -3px;
+                display: inline-block;
+                text-align: center;
+                width: 33%;
+            }
+
+            #menu li a{
+                display: list-item;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+            #menu ul li{
+                width: 100%;
+            }
+        }
+</style>
+</head>
+<body>
+<div id="menu">
+        <ul>
+            <li><a href="Unidad1.html">Unidad 1</a></li>
+            <li><a href="Unidad2.html">Unidad 2</a></li>
+            <li>  <a href="Unidad3.html">Unidad 3</a></li>
+            <li> <a href="Unidad4.html">Unidad 4</a></li>
+        
+        </ul>
+    </div>
+<header>
+	<nav>
+		<ul>
+			<li><a href="2.3.html">2.3 El ciclo de instruccion</a></li>
+			<li><a href="2.3.1.html">2.3.1 Ciclo Fetch-Decode-Execute</a></li>
+			<li><a href="2.3.3.html">2.3.2 Segmentacion de instrucciones</a></li>
+			<li><a href="2.3.3.html">2.3.3 Conjunto de instrucciones. Caracteristiicas y funciones</a></li>
+			<li><a href="2.3.4.html">2.3.4 Modos de direccionamiento</a></li>
+		</ul>
+	</nav>
+</header>
+
+<center><h1>2.3.2 Segmentacion de instrucciones</h1></center>
+<center><h1>2.3.3 Conjunto de instrucciones. Caracteristicas y funciones</h1></center>
+<center>
+La segmentación de instrucciones es similar al uso de una cadena de montaje en
+una fábrica de manufacturación. En las cadenas de montaje, el producto pasa a
+través de varias etapas de producción antes de tener el producto terminado. Cada
+etapa o segmento de la cadena está especializada en un área específica de la
+línea de producción y lleva a cabo siempre la misma actividad.
+</center>
+
+<center>
+A estos procesadores se les conoce como pipeline processors. Estos están
+compuestos por una lista de segmentos lineales y secuenciales en donde cada
+segmento lleva a cabo una tarea o un grupo de tareas computacionales. Los datos
+que provienen del exterior se introducen en el sistema para ser procesados. 
+</center>
+
+<center>
+<ol>Las arquitecturas y los conjuntos de instrucciones se pueden clasificar
+considerando los siguientes aspectos:
+Almacenamiento de operandos en la CPU: dónde se ubican los operandos aparte
+de la memoria.</ol>
+<ol>Número de operandos explícitos por instrucción: cuántos operandos se expresan
+en forma explícita en una instrucción típica. Normalmente son 0, 1, 2 y 3.</ol>
+</center>
+
+
+<p>
+		Si quieres regresar al temario de la unidad presiona aqui
+	<a href="Unidad2.html"><input type="button" value="Unidad 2"></a>
+	</p>
+
+	<p>
+		Si quieres regresar a la página principal presiona aqui
+	<a href="PaginaPrincipal.html"><input type="button" value="PaginaPrincipal"></a>
+	</p>
+</body>
+</html>

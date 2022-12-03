@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estlos.css">
+	<title>2.2.1 Registro visibles para el usuario</title>
+	<style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu{
+            background-color: rgb(10, 205, 240);
+        }
+
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 20px 30px;
+        }
+
+        #menu li{
+            display: inline;
+            margin: 0;
+        }
+
+        #menu li a{
+            color: white;
+            padding: 20px 30px;
+            text-decoration: none;
+        }
+
+        #menu li a:hover{
+            background-color: rgb(223, 181, 243);
+            color: white;
+        }
+
+        @media screen and (max-width: 747px){
+            #menu ul{
+                padding: 0;
+            }
+            #menu ul li{
+                margin-right: -3px;
+                display: inline-block;
+                text-align: center;
+                width: 33%;
+            }
+
+            #menu li a{
+                display: list-item;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+            #menu ul li{
+                width: 100%;
+            }
+        }
+</style>
+</head>
+<body>
+<div id="menu">
+        <ul>
+            <li><a href="Unidad1.html">Unidad 1</a></li>
+            <li><a href="Unidad2.html">Unidad 2</a></li>
+            <li>  <a href="Unidad3.html">Unidad 3</a></li>
+            <li> <a href="Unidad4.html">Unidad 4</a></li>
+        
+        </ul>
+    </div>
+<header>
+		<nav>
+			<li><a href="2.1.html">2.1 Organizador del procesador</a></li>
+			<li><a href="2.2.html">2.2 Estructura de registros</a></li>
+			<li><a href="2.2.1.html">2.2.1 Registros visibles para el usuario</a></li>
+			<li><a href="2.2.2.html">2.2.2 Registro de control y de estados</a></li>
+			<li><a href="2.2.3.html">2.2.3 Ejemplos de registros de CPU reales</a></li>
+		</nav>
+	</header>
+	<center><h2>2.2.1 Registros visibles para el usuario</h2></center>
+
+	<center>
+Son aquellos que pueden ser referenciado por medio del lenguaje
+máquina que ejecuta el CPU, los registro que normalmente
+disponibles son:
+<li>1) Registros de Datos. (Manipulables a bajo nivel).</li>
+<li>2) Registro de Direcciones (Manipulables a bajo nivel).</li>
+<li>3)Registro de índice.</li>
+Sirve para direccionamiento, es similar al “PC”, pero tiene un valor base de
+autoincremento: Ejemplo: Base 3  3, 6, 9…n, n+1; que se irá sumando para
+obtener una dirección más efectiva.
+	</center>
+
+	<p>
+		Si quieres regresar al temario de la unidad presiona aqui
+	<a href="Unidad2.html"><input type="button" value="Unidad 2"></a>
+	</p>
+
+	<p>
+		Si quieres regresar a la página principal presiona aqui
+	<a href="PaginaPrincipal.html"><input type="button" value="PaginaPrincipal"></a>
+	</p>
+</body>
+</html>

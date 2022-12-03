@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estlos.css">
+	<title>2.4 Casos de estudio de CPU reales</title>
+	<style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu{
+            background-color: rgb(10, 205, 240);
+        }
+
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 20px 30px;
+        }
+
+        #menu li{
+            display: inline;
+            margin: 0;
+        }
+
+        #menu li a{
+            color: white;
+            padding: 20px 30px;
+            text-decoration: none;
+        }
+
+        #menu li a:hover{
+            background-color: rgb(223, 181, 243);
+            color: white;
+        }
+
+        @media screen and (max-width: 747px){
+            #menu ul{
+                padding: 0;
+            }
+            #menu ul li{
+                margin-right: -3px;
+                display: inline-block;
+                text-align: center;
+                width: 33%;
+            }
+
+            #menu li a{
+                display: list-item;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+            #menu ul li{
+                width: 100%;
+            }
+        }
+</style>
+</head>
+<body>
+<div id="menu">
+        <ul>
+            <li><a href="Unidad1.html">Unidad 1</a></li>
+            <li><a href="Unidad2.html">Unidad 2</a></li>
+            <li>  <a href="Unidad3.html">Unidad 3</a></li>
+            <li> <a href="Unidad4.html">Unidad 4</a></li>
+        
+        </ul>
+    </div>
+<center><h2>2.4 Casos de estudio de CPU reales</h2></center>
+
+<center><b>I - 8086</b></center>
+
+<center>Los modos de direccionamiento del 8086 (Crawford & Gelsinger, 1987) son muy irregulares. Los registros del procesador, se usan para contener los datos con que se está trabajando puesto que el acceso a los registros es mucho más rápido que los accesos a memoria. </center>
+
+
+<center><img src="cpureal.jpg" height="100" width="300"></center>
+
+<center>
+Los modos del 8086 son indirectos por registro, indexados o directos por registro.	
+</center>
+
+<center><h2>Motorola 68000</h2></center>
+
+<center>
+	En el Motorola 68000 el mismo direccionamiento lleva implícito el tipo de registro sobre el que trabaja (direcciones o datos). Está basado en dos bancos de 8 registros de 32 bits.
+	Este acepta los siguientes direccionamientos: 
+</center>
+<center>
+<li>Implicito</li>
+<li>Inmediatoi</li>
+<li>Absoluto</li>
+<li>Directo a registro</li>
+<li>Indirecto</li>
+<li>Relativo a PC con desplazamiento</li>
+<li>Relativo a PC con indice y desplazamiento</li>
+</center>
+
+<center><h2>80386</h2></center>
+
+<center>
+	La CPU está compuesta por la unidad de ejecución y la unidad de instrucciones. La unidad de ejecución contiene los ocho registros de 32 bits de propósito general que se utilizan para el cálculo de direcciones y operaciones con datos y un barrel shifter de 64 bits que se utiliza para acelerar las operaciones de desplazamiento, rotación, multiplicación y división.
+</center>
+
+<center>El 80386 tiene registros de 32 bits en las siguientes categorias:</center>
+
+<center>
+<li>Registro de proposito general</li>
+<li>Registro de segmento</li>
+<li>Punto de instrucciones</li>
+<li>Indicadores</li>
+<li>Registro de control</li>
+<li>Registro de direcciones de sistema</li>
+<li>Relativo a PC con indice y desplazamiento</li>
+</center>
+
+<center><h2>Procesador I3</h2></center>
+
+<center>
+Línea de microprocesadores Intel, gama baja. 3 era generación 2010.
+</center>
+
+<center><h3>Caracteristicas</h3></center>
+
+<center>
+<li>Procesador de 2 nucleos</li>
+<li>4 hilos de procesamiento en paralelo</li>
+<li>Tarjeta grafica integrada</li>
+<li>Controlador de memoria</li>
+<li>Controlador PCI Express 2.0 integrado</li>
+</center>
+
+<p>
+		Si quieres regresar al temario de la unidad presiona aqui
+	<a href="Unidad2.html"><input type="button" value="Unidad 2"></a>
+	</p>
+
+	<p>
+		Si quieres regresar a la página principal presiona aqui
+	<a href="PaginaPrincipal.html"><input type="button" value="PaginaPrincipal"></a>
+	</p>
+</body>
+</html>
